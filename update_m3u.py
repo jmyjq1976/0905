@@ -3,7 +3,7 @@ import os
 import sys
 
 def update_m3u():
-    url = os.environ.get("M3U_URL", "https://iptv.1989.click/playlist.m3u")
+    url = os.environ.get("M3U_URL", "https://iptv.yang-1989.xyz/playlist.m3u")
     output_file = "playlist.m3u"  # 仓库中保存的文件名
     
     try:
